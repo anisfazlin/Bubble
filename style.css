@@ -1,0 +1,43 @@
+
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9rrfjtm7RGE&psig=AOvVaw2myiE8SicggRRrCXl_1r1o&ust=1589310162390000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNC97_C_rOkCFQAAAAAdAAAAABAD');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	background: black;
+font-size: 80px;
+	color: white;
+}
+
+#container{
+	width: 400px;
+	background: black;
+	color: white;
+	padding: 15px;
+}
+ 
+ h2{
+ 	background: #68ABEE;
+ 	color: black;
+ }
+
+ a{
+ 	text-decoration: none;
+ 	color :#68ABEE;
+ }
